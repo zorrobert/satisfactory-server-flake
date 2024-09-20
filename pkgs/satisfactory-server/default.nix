@@ -13,7 +13,7 @@ let
 in
 stdenvNoCC.mkDerivation (finalAttrs: {
   name = "satisfactory-server";
-  version = "15677691";
+  version = "15747425";
 
   src = fetchSteam {
     inherit (finalAttrs) name;
